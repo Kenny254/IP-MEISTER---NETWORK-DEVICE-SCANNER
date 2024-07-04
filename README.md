@@ -2,12 +2,18 @@
 Introduction
 IP-Meister is a cross-platform application designed to scan and list devices on a network, providing their IP and MAC addresses along with their device names. The tool is perfect for network administrators and tech enthusiasts who need a cost-effective and efficient solution for network management.
 
+<img width="634" alt="Screenshot 2024-07-04 at 12 02 58" src="https://github.com/Kenny254/IP-Meister-Network-Scanner/assets/22868045/ba860ddd-7d50-4a21-bb42-c80eb7a00eac">
+
+
 #How the Code Works
 
 #1. Initialization and Privilege Check
 Initializes the Pygame mixer for sound notifications.
 Checks if the script is running with root privileges, exiting if not.
-Network Information:
+
+<img width="564" alt="Screenshot 2024-07-04 at 12 02 42" src="https://github.com/Kenny254/IP-Meister-Network-Scanner/assets/22868045/1f9db398-4573-4c8d-8604-7b051c832066">
+
+Network Information
 
 #2. Retrieves the local IP address using the netifaces library.
 Resolves device names using DNS lookups with the socket library.
